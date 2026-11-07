@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZenEarth</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="zen-container">
+        <!-- Top Nav / Search Bar -->
+        <header class="top-bar">
+            <div class="logo">ZenEarth</div>
+            <div class="search-box">
+                <input type="text" placeholder="search your location..." id="search-input">
+                <span class="search-icon">🔍</span>
+            </div>
+        </header>
+
+        <!-- Main Current Weather Card -->
+        <section class="main-weather-card">
+            <div class="location-info">
+                <h1>Sandton, Johannesburg</h1>
+            </div>
+            <div class="temp-condition-group">
+                <div class="temperature-display">--°C</div>
+                <div class="condition-display">Loading atmosphere...</div>
+            </div>
+        </section>
+
+        <!-- Hourly Forecast Row -->
+        <section class="hourly-section">
+            <div class="hourly-scroll">
+                <div class="hour-item active"><span>NOW</span><strong>--°</strong></div>
+                <div class="hour-item"><span>3 PM</span><strong>--°</strong></div>
+                <div class="hour-item"><span>4 PM</span><strong>--°</strong></div>
+                <div class="hour-item"><span>5 PM</span><strong>--°</strong></div>
+                <div class="hour-item"><span>6 PM</span><strong>--°</strong></div>
+                <div class="hour-item"><span>7 PM</span><strong>--°</strong></div>
+                <div class="hour-item"><span>8 PM</span><strong>--°</strong></div>
+                <div class="hour-item"><span>9 PM</span><strong>--°</strong></div>
+            </div>
+        </section>
+
+        <!-- 2x2 Metrics Grid -->
+        <section class="metrics-grid">
+            <div class="metric-card">
+                <span class="metric-title">HUMIDITY</span>
+                <strong class="humidity-display">--%</strong>
+            </div>
+            <div class="metric-card">
+                <span class="metric-title">WIND SPEED</span>
+                <strong class="wind-display">-- km/h</strong>
+            </div>
+            <div class="metric-card">
+                <span class="metric-title">UV INDEX</span>
+                <strong class="uv-display">--</strong>
+            </div>
+            <div class="metric-card">
+                <span class="metric-title">VISIBILITY</span>
+                <strong class="visibility-display">-- km</strong>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
